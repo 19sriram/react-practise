@@ -3,7 +3,7 @@ import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
 import Subsection from "./subsection";
 
-export function Welcome() {
+export function SuspenseAndLazyLoading() {
   const SubSectionn = lazy(() => import("./subsection"));
 
   
